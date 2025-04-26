@@ -8,7 +8,7 @@ Code relaese for [MDF-Net:Multi-layer Feature Dynamic Interactive Fusion Network
 
   ```shell
   conda env create -f environment.yml
-  conda activate SRM
+  conda activate MDF
   ```
 
 ## Dataset
@@ -36,6 +36,6 @@ Datasets refer to the introduction in the paper. The preprocessing of the croppe
 Thanks for your attention!
 If you have any suggestion or question, you can leave a message here or contact us directly:
 
-- liz_9091@163.com
+- rational_cy@163.com
 
 

@@ -1,4 +1,4 @@
-# Self-Reconstruction Network for Fine-Grained Few-Shot Classification
+# MDF-Net:Multi-layer Feature Dynamic Interactive Fusion Network for Few-Shot Fine-Grained Image Classification
 
 Code relaese for [MDF-Net:Multi-layer Feature Dynamic Interactive Fusion Network for Few-Shot Fine-Grained Image Classification). 
 

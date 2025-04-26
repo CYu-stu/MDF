@@ -108,10 +108,10 @@ class OptimizedTransformer(nn.Module):
         return pe.unsqueeze(0)
 
 
-# 改进的 FSRM 主模型，保留轻量化并增强局部特征处理
-class OptimizedFSRM(nn.Module):
+# 改进的DFF主模型，保留轻量化并增强局部特征处理
+class DFF(nn.Module):
     def __init__(self, sequence_length=25, embedding_dim=640, num_layers=1, num_heads=1, dropout=0.1, attention_dropout=0.1):
-        super(OptimizedFSRM, self).__init__()
+        super(DFF, self).__init__()
         self.transformer = OptimizedTransformer(sequence_length=sequence_length, dim=embedding_dim, num_layers=num_layers, num_heads=num_heads, dropout=dropout, attention_dropout=attention_dropout)
         self.flattener = nn.Flatten(2, 3)
 

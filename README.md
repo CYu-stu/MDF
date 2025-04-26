@@ -1,6 +1,6 @@
 # Self-Reconstruction Network for Fine-Grained Few-Shot Classification
 
-Code relaese for [Self-Reconstruction Network for Fine-Grained Few-Shot Classification](https://www.sciencedirect.com/science/article/pii/S003132032400236X). 
+Code relaese for [MDF-Net:Multi-layer Feature Dynamic Interactive Fusion Network for Few-Shot Fine-Grained Image Classification). 
 
 ## Code environment
 

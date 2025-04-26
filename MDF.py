@@ -27,7 +27,7 @@ class BasicConv(nn.Module):
             x = self.relu(x)
         return x
     
-class DRN(nn.Module):
+class MDF(nn.Module):
     
     def __init__(self,way=None,shots=None,resnet=False,is_pretraining=False, args=None):
         

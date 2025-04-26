@@ -117,7 +117,7 @@ class TransferConv_h(nn.Module):
         return output
         
 
-class CLFR(nn.Module):
+class MFI(nn.Module):
     def __init__(self, resnet, in_c):
         super().__init__()
         self.transferconv_h = TransferConv_h(in_c)

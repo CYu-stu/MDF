@@ -3,7 +3,7 @@ import torch
 from loss import Angular_Isotonic_Loss
 
 
-def default_train(train_loader, model, optimizer, writer, iter_counter, args, print_interval=5):
+def default_train(train_loader, model, optimizer, writer, iter_counter, args):
 
     if args.gpu_num > 1:
         way = model.module.way
@@ -58,8 +58,7 @@ def default_train(train_loader, model, optimizer, writer, iter_counter, args, pr
 
         avg_acc += acc
         avg_loss += loss_value
-        if (i + 1) % print_interval == 0:
-            print(f"Iteration {i+1}: Loss = {loss_value:.4f}, Accuracy = {acc:.2f}%")
+
     avg_acc = avg_acc / (i + 1)
     avg_loss = avg_loss / (i + 1)
 

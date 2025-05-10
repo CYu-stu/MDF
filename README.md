@@ -17,7 +17,7 @@ Datasets refer to the introduction in the paper. The preprocessing of the croppe
 
 ## Train
 
-* For example, to train SRM on `CUB_fewshot_cropped` with ResNet-12 backbone under the 1/5-shot setting, run the following command lines:
+* For example, to train MDF on `CUB_fewshot_cropped` with ResNet-12 backbone under the 1/5-shot setting, run the following command lines:
 
   ```shell
   cd experiments/CUB_fewshot_cropped/ResNet-12
